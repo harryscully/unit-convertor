@@ -42,6 +42,17 @@ body {
     color: white;
 }
 
+#number-input::-webkit-inner-spin-button,
+#number-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#number-input {
+    -mox-appearance: textfield;
+    appearance: textfield;
+}
+
 #convert-btn {
     margin: 0;
 
@@ -55,6 +66,10 @@ body {
 
     width: 117px;
     height: 42px;
+}
+
+#convert-btn:hover {
+    background-color: #ece8fd;
 }
 
 #lower-container {
