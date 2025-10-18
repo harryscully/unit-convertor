@@ -57,6 +57,48 @@ body {
     height: 42px;
 }
 
+#lower-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+    background-color: #F4F4F4;
+    width: 100%
+}
+
+.box {
+    width: 500px;
+    height: 110px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background-color: white;
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+.box-header {
+    margin: 0;
+    color: #5A537B;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box-text {
+    margin: 0;
+    color: #353535;
+}
 
 
 
