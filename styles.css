@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Inter', sans-serif
+}
+
+#upper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    background-color: #6943FF;
+    color: white;
+
+    height: 285px;
+    width: 100%;
+}
+
+#header {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#number-input {
+    margin: 0;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    
+    width: 117px;
+    height: 83px;
+
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background-color: inherit;
+    color: white;
+}
+
+#convert-btn {
+    margin: 0;
+
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #3D3D3D;
+    
+    font-size: 16px;
+    font-weight: normal;
+
+    width: 117px;
+    height: 42px;
+}
+
+
+
+
